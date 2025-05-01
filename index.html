@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undersolo - Excelência em Engenharia de Minas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+    
+       <nav class="navbar">
+        <div class="logo-container">
+            <img src="src/img/logo-caixa.png" alt="Undersolo Logo" class="logo-img">
+            <div class="logo-text">Under<span>solo</span></div>
+        </div>
+        <div class="nav-links">
+            <a href="#home">Início</a>
+            <a href="#about">Sobre</a>
+            <a href="#services">Serviços</a>
+            <a href="#contact">Contato</a>
+        </div>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Menu Mobile -->
+    <div class="mobile-menu">
+        <a href="#home" class="mobile-nav-link">Início</a>
+        <a href="#about" class="mobile-nav-link">Sobre</a>
+        <a href="#services" class="mobile-nav-link">Serviços</a>
+        <a href="#contact" class="mobile-nav-link">Contato</a>
+    </div>
+    <div class="overlay"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Excelência em <span>Mineração</span></h1>
+            <p>Soluções especializadas em rochas ornamentais e consultoria mineral para impulsionar seu negócio com eficácia, segurança e inovação.</p>
+            <a href="#contact" class="btn">Solicitar Consultoria</a>
+        </div>
+        <div class="scroll-down" onclick="scrollToSection('about')">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Seção de Destaque com Números -->
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-item">
+                <div class="stat-number" data-count="50">0</div>
+                <div class="stat-text">Projetos Concluídos</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-count="12">0</div>
+                <div class="stat-text">Anos de Experiência</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-count="100">0</div>
+                <div class="stat-text">Clientes Satisfeitos</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-count="24">0</div>
+                <div class="stat-text">Municípios Atendidos</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-title">
+            <h2>Sobre Nós</h2>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="src/img/gabriel-1.png" alt="Engenheiro de Minas Gabriel Dias Correia">
+            </div>
+            <div class="about-text">
+                <h3>Gabriel Dias Correia</h3>
+                <p><strong>Engenheiro de Minas formado em 2018</strong>, com sólida atuação no setor de rochas ornamentais, oferecendo serviços que cobrem todo o ciclo de vida de empreendimentos minerários — da prospecção e pesquisa à lavra e beneficiamento.</p>
+
+                <p>Experiente na elaboração de documentos como alvarás de pesquisa, RFP, RAL e guia de utilização, também realiza modelagem 3D, avaliação de reservas e planejamento de lavra com foco em eficiência e viabilidade econômica.</p>
+
+                <p>Atua com otimização de processos, testes de beneficiamento, cessão de direitos minerários e trâmites junto à ANM, sempre alinhando conformidade legal, inovação e sustentabilidade.</p>
+
+                <p>Atendimento em todo o Brasil, com foco em Minas Gerais, garantindo projetos tecnicamente sólidos, sustentáveis e de alto retorno para o cliente.</p>
+
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-title">
+            <h2>Nossos Serviços</h2>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Documentação Técnica</h3>
+                    <p>Elaboração completa de relatórios anuais de lavra, relatórios finais de pesquisa e toda documentação técnica necessária para regularização mineral, garantindo conformidade com as normas vigentes.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-gem"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Rochas Ornamentais</h3>
+                    <p>Consultoria especializada em exploração, beneficiamento e comercialização de rochas ornamentais, com enfoque em qualidade, sustentabilidade e maximização do valor de mercado.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-clipboard-check"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Regularização Mineral</h3>
+                    <p>Assessoria completa para requerimentos de alvarás de pesquisa, concessão de lavra e demais processos junto à ANM e órgãos estaduais, agilizando todo o processo burocrático.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Gestão de Projetos</h3>
+                    <p>Planejamento e gerenciamento de projetos de mineração, desde a fase de pesquisa até a lavra, garantindo eficiência operacional e redução de custos.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Due Diligence</h3>
+                    <p>Avaliação técnica de ativos minerários para processos de compra e venda, fusões e aquisições, identificando oportunidades e riscos potenciais.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Licenciamento Ambiental</h3>
+                    <p>Assessoria no processo de licenciamento ambiental de empreendimentos minerários, garantindo o cumprimento de todas as exigências legais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Depoimentos -->
+    <section class="testimonials">
+        <div class="section-title">
+            <h2>Depoimentos</h2>
+        </div>
+        <div class="testimonial-slider">
+            <div class="testimonial-item">
+                <p class="testimonial-text">"A Undersolo transformou nosso processo de regularização mineral, que antes era demorado e complexo, em algo ágil e eficiente. Recomendo seus serviços a todos do setor."</p>
+                <p class="testimonial-author">Carlos Eduardo, Mineradora Pedra Branca</p>
+            </div>
+            <div class="testimonial-item">
+                <p class="testimonial-text">"O conhecimento técnico do Gabriel em rochas ornamentais nos ajudou a otimizar nossa produção e aumentar significativamente nossa rentabilidade. Parceiro essencial para nosso negócio."</p>
+                <p class="testimonial-author">Fernanda Silva, Marmoraria Elite</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-title">
+            <h2>Contato</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Entre em Contato</h3>
+                <p>Estamos prontos para atender suas necessidades em engenharia de minas. Entre em contato para agendar uma consultoria ou tirar dúvidas sobre nossos serviços.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+55 38 99168-3260</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>gabrieldiascorreia@outlook.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Minas Gerais, Brasil</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nome Completo</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefone</label>
+                        <input type="tel" id="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Serviço de Interesse</label>
+                        <select id="service" class="form-control">
+                            <option value="">Selecione um serviço</option>
+                            <option value="documentacao">Documentação Técnica</option>
+                            <option value="rochas">Rochas Ornamentais</option>
+                            <option value="regularizacao">Regularização Mineral</option>
+                            <option value="gestao">Gestão de Projetos</option>
+                            <option value="due">Due Diligence</option>
+                            <option value="licenciamento">Licenciamento Ambiental</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Under<span>solo</span></div>
+            <div class="footer-links">
+                <a href="#home">Início</a>
+                <a href="#about">Sobre</a>
+                <a href="#services">Serviços</a>
+                <a href="#contact">Contato</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Serviço</a>
+            </div>
+            <div class="social-links-footer">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; 2023 Undersolo Engenharia de Minas. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script>
+        // Menu Mobile Toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const overlay = document.querySelector('.overlay');
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+        
+        menuToggle.addEventListener('click', function() {
+            this.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+            overlay.classList.toggle('active');
+            document.body.classList.toggle('no-scroll');
+        });
+        
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                menuToggle.classList.remove('active');
+                mobileMenu.classList.remove('active');
+                overlay.classList.remove('active');
+                document.body.classList.remove('no-scroll');
+            });
+        });
+        
+        overlay.addEventListener('click', function() {
+            menuToggle.classList.remove('active');
+            mobileMenu.classList.remove('active');
+            this.classList.remove('active');
+            document.body.classList.remove('no-scroll');
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            const backToTop = document.querySelector('.back-to-top');
+            
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+            
+            if (window.scrollY > 300) {
+                backToTop.classList.add('active');
+            } else {
+                backToTop.classList.remove('active');
+            }
+        });
+
+        // Back to top button
+        document.querySelector('.back-to-top').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Scroll to section
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            window.scrollTo({
+                top: section.offsetTop - 80,
+                behavior: 'smooth'
+            });
+        }
+
+        // Intersection Observer for section animations
+        const sections = document.querySelectorAll('section');
+        
+        const observerOptions = {
+            threshold: 0.1
+        };
+        
+        const observer = new IntersectionObserver(function(entries, observer) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+        
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+
+        // Smooth scrolling for nav links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                window.scrollTo({
+                    top: targetElement.offsetTop - 80,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Animated counter for stats
+        function animateCounters() {
+            const counters = document.querySelectorAll('.stat-number');
+            const speed = 200;
+            
+            counters.forEach(counter => {
+                const target = +counter.getAttribute('data-count');
+                const count = +counter.innerText;
+                const increment = target / speed;
+                
+                if (count < target) {
+                    counter.innerText = Math.ceil(count + increment);
+                    setTimeout(animateCounters, 1);
+                } else {
+                    counter.innerText = target;
+                }
+            });
+        }
+        
+        // Trigger counter animation when stats section is visible
+        const statsSection = document.querySelector('.stats');
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateCounters();
+                    statsObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+        
+        statsObserver.observe(statsSection);
+
+        // Form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Here you would normally send the form data to a server
+            alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
