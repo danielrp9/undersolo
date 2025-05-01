@@ -221,20 +221,7 @@ body {
     visibility: visible;
 }
 
-/* Hero Section - Totalmente reformulada para ser mais suave */
-.hero {
-    height: 100vh;
-    background: 
-        linear-gradient(rgba(44, 62, 80, 0.85), rgba(26, 37, 47, 0.9)), 
-        url('../img/header2.png') no-repeat center center/cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    position: relative;
-    overflow: hidden;
-}
+
 
 .hero::before {
     content: '';
